@@ -14,7 +14,7 @@ scikit-learn==1.7.1
 scipy==1.15.3
 statsmodels==0.14.5
 torch==2.5.1
-
+```
 
 ## Prediction
 
@@ -37,3 +37,4 @@ To start the full pipeline, run the following command:
 
 ```bash
 python main.py
+```
