@@ -4,6 +4,17 @@
 
 **Abstract**: Urban areas are central to global climate mitigation, yet existing projections often rely on coarse-grained assessment models that overlook the interplay between urban typology and socioeconomic dynamics. Here we harness a context-aware deep learning framework combined with typological clustering to project CO₂ emissions for 46,833 cities in Annex I countries through 2050 under Shared Socioeconomic Pathways. We identify five distinct urban typologies characterized by differing patterns of horizontal expansion, economic intensification, and vertical growth. We find that emission trajectories diverge significantly across these typologies: 'Vertically densifying' cities are projected to contribute 34.5% of total emission reductions under the SSP1. Conversely, 'Compact intensifying' cities exhibit a rebound in emissions post-2035. Our results suggest that uniform national policies are unsuitable for diverse urban typologies, necessitating type-specific strategies to achieve the full decarbonization potential of cities.
 
+## Requirements
+
+Plaintext
+python==3.10.18
+numpy==1.26.4
+pandas==2.3.1
+scikit-learn==1.7.1
+scipy==1.15.3
+statsmodels==0.14.5
+torch==2.5.1
+
 ## Prediction
 
 `config.py`: Centralized management for all hyperparameters, paths, and constants. Provides methods for directory initialization and random seed setup to ensure reproducibility.
