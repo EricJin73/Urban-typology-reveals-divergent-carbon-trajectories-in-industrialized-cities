@@ -6,7 +6,7 @@
 
 ## Requirements
 
-Plaintext
+```bash
 python==3.10.18
 numpy==1.26.4
 pandas==2.3.1
